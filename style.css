@@ -1,0 +1,57 @@
+*{
+    padding:0; margin:0; box-sizing: border-box;
+    background-color: black ;
+    font-family: sans-serif;
+}
+h2{
+    color: white;
+    text-shadow: 10px 10px 15px blueviolet;
+    font-size: 30px;
+    
+}
+.container{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CALCY{
+    background-color: black;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 15px grey,
+                       5px 5px 15px rgba(0,0,0,0.8) ;
+    display:grid;     
+    grid-template-columns:repeat(4,90px);              
+}
+input{
+    height: 90px;
+    grid-column: span 4;
+    border-radius: 30px;
+    background-color:white;
+    box-shadow: inset -5px -5px 12px rgba(0,0,0,0.8),
+                inset 5px 5px 12px rgba(0,0,0,0.16) ;
+                  
+   font-size: 25px;
+}
+button{
+    width: 90%;
+    border-radius: 60%;
+    height: 60px;
+    margin: 4%;
+    font-size: 25px;
+}
+.key1{
+    background-color: indianred;
+    border-radius: 70%;
+}
+.key2{
+    background-color: white;
+    border-radius: 70%;
+}
+.key3{
+    background-color: orangered;
+    border-radius: 70%;
+    
+}
+

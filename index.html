@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="CALCY.png">
+    <title>CALCY</title>
+</head>
+<body>
+    <center>
+    <br>    
+    <h2> CALCULATOR</h2>
+    <br>
+    </center>
+    
+    <div class="container">
+        <div class="CALCY">
+            <input type="text" placeholder = " 0" id="RESULT">
+
+            <button onclick="All_clear()" class="key1">AC</button>
+            <button onclick="del()" class="key2"><img src="DEL.png" height="38px" width="50px" ></button>
+            <button onclick="display('%')"class="key3">%</button>
+            <button onclick="display('/')"class="key3">/</button>
+
+            <button onclick="display('1')"class="key2">1</button>
+            <button onclick="display('2')"class="key2">2</button>
+            <button onclick="display('3')"class="key2">3</button>
+            <button onclick="display('*')"class="key3">x</button>
+
+            <button onclick="display('4')"class="key2">4</button>
+            <button onclick="display('5')"class="key2">5</button>
+            <button onclick="display('6')"class="key2">6</button>
+            <button onclick="display('-')"class="key3">-</button>
+
+            <button onclick="display('7')"class="key2">7</button>
+            <button onclick="display('8')"class="key2">8</button>
+            <button onclick="display('9')"class="key2">9</button>
+            <button onclick="display('+')"class="key3">+</button>
+
+            <button onclick="display('00')"class="key2">00</button>
+            <button onclick="display('0')"class="key2">0</button>
+            <button onclick="display('.')"class="key2">.</button>
+            <button onclick="calculation()"class="key3">=</button>
+        </div>
+    </div>
+
+    <script>
+        let outputScreen = document.getElementById("RESULT");
+
+        function display(n){
+            outputScreen.value += n;
+        }
+        function calculation(){
+            try{
+                outputScreen.value = eval(outputScreen.value);
+            }
+            catch(err){
+                alert("invalid move");
+            }
+        }
+        function All_clear(){
+            outputScreen.value = " ";
+        }
+        function del(){
+            outputScreen.value = outputScreen.value.slice(2,-1);
+        }
+    </script>
+</body>
+</html>
