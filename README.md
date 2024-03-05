@@ -11,6 +11,6 @@ It performs basic arithmetic operations and is designed with a clean and intuiti
 - Equal button to calculate the result.
 
 
-## LICENSE
+## License
 
-MIT License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
