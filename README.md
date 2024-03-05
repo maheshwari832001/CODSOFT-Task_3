@@ -9,3 +9,8 @@ It performs basic arithmetic operations and is designed with a clean and intuiti
 - Addition, subtraction, multiplication, and division.
 - Clear button to reset the current input.
 - Equal button to calculate the result.
+
+
+## LICENSE
+
+MIT License
