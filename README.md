@@ -13,4 +13,4 @@ It performs basic arithmetic operations and is designed with a clean and intuiti
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+[MIT License](License)
