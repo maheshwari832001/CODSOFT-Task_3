@@ -11,6 +11,11 @@ It performs basic arithmetic operations and is designed with a clean and intuiti
 - Equal button to calculate the result.
 
 
+## Usage
+
+Simply click on the numbers and operators to input your calculation. Click the equal button to see the result. Use the clear button to reset the calculation.
+
+
 ## License
 
 [MIT License](License)
